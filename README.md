@@ -1,4 +1,8 @@
-﻿# Engineering-Thesis
+﻿--> LIVE SOON
+
+# Engineering-Thesis
+ In short: Google drive clone !
+ 
  
 ## Local install: 
 
