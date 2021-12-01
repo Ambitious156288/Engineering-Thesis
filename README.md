@@ -1,5 +1,3 @@
-﻿--> In progress !!!!!!!!!!! LIVE SOON
-
 # Engineering-Thesis
  In short: Google drive clone !
  
