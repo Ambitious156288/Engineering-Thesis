@@ -4,14 +4,14 @@
  
 ## Local install: 
 
- -> go to folder frontend: 
+ -> go to the frontend folder in terminal: 
      
    
     npm i
     
     npm start
   
- -> go to folder backend:
+ -> go to the backend folder in terminal:
     
     
     npm i
