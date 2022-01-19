@@ -9,7 +9,7 @@ import fileUpload from "express-fileupload";
 import fileMiddleware from "./middleware/variousFiles.files.js";
 import staticMiddleware from "./middleware/variousFiles.static.js";
 
-import * as fs from 'fs';
+import * as fs from "fs";
 
 const __dirname = path.resolve();
 
@@ -19,7 +19,6 @@ import galleryRouter from "./routes/photoGallery.js";
 import variousFilesRouter from "./routes/variousFiles.js";
 
 import dotenv from "dotenv";
-
 
 const app = express();
 dotenv.config();
@@ -53,13 +52,9 @@ const staticPath = path.resolve(__dirname, "static");
 
 console.log("filesPath", filesPath);
 
-if (!fs.existsSync(filesPath)) {
-  fs.mkdirSync(path.resolve(filesPath));
-}
+if (!fs.existsSync(filesPath)) fs.mkdirSync(path.resolve(filesPath));
 
-if (!fs.existsSync(staticPath)) {
-  fs.mkdirSync(path.resolve(staticPath));
-}
+if (!fs.existsSync(staticPath)) fs.mkdirSync(path.resolve(staticPath));
 
 mongoose
   .connect(

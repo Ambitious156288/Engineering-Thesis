@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'https://engineeringthesis.herokuapp.com';
+const apiUrl = 'http://localhost:8080/api/';
 
 export const singleFileUpload = async (data, options) => {
   try {
